@@ -8,7 +8,7 @@ public class Exception {
         String[][] mass3 = new String[4][4];
         int[][] massInt = new  int[4][4];
         transformatiomString(string, mass3);
-       System.out.println(massInt(mass3));
+       System.out.println(massInt(mass3,massInt));
 
     }
 
@@ -28,8 +28,8 @@ public class Exception {
         return string;
     }
 
-    public static int massInt(String[][] mass3) {
-        int[][] massInt = new  int[4][4];
+    public static int massInt(String[][] mass3, int[][] massInt) {
+        //int[][] massInt = new  int[4][4];
         for (int j = 0; j < mass3.length; j++){
             for (int i = 0; i< mass3.length; i++){
                 try {
