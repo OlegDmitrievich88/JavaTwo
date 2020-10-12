@@ -29,7 +29,6 @@ public class Exception {
     }
 
     public static int massInt(String[][] mass3, int[][] massInt) {
-        //int[][] massInt = new  int[4][4];
         for (int j = 0; j < mass3.length; j++){
             for (int i = 0; i< mass3.length; i++){
                 try {
