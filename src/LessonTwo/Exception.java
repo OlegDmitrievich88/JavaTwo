@@ -6,7 +6,7 @@ public class Exception {
     public static void main(String[] args) {
         String string = "10 3 1 2\n2 3 2 2\n5 6 7 1\n300 3 1 0";
         String[][] mass3 = new String[4][4];
-        int[][] massInt = new  int[4][4];
+        int[][] massInt = new int[4][4];
         transformatiomString(string, mass3);
        System.out.println(massInt(mass3,massInt));
 
