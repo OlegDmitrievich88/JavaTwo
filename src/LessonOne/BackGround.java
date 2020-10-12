@@ -23,8 +23,7 @@ public class BackGround extends Sprite{
 
     @Override
     void render(GameCanvas canvas, Graphics g){
-        //g.setColor(colorCanvas);
-        canvas.setBackground(colorCanvas);
+        g.setColor(colorCanvas);
     }
 
 }
