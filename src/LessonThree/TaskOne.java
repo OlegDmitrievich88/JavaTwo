@@ -21,10 +21,9 @@ public class TaskOne {
             System.out.printf("{k=%s,v=%d}",key,text1.get(key));
         }
 
-        //Iterator<Map.Entry<String, Integer>> itertext = text1.entrySet().iterator();
-        //System.out.println(itertext);
+       
         }
-     
+
     }
 
 
